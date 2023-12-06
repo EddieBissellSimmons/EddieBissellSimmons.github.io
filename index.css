@@ -291,7 +291,7 @@
   left: 150px;
   width: 1140px;
   height: 1px;
-  opacity: 0.10;
+  opacity: 1;
   position: absolute;
 }
 .home-headshot {
@@ -376,13 +376,6 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-}
-.home-rectangle1 {
-  top: 0px;
-  left: 0px;
-  width: 1440px;
-  height: 120px;
-  position: absolute;
 }
 .home-text41 {
   top: 60px;
