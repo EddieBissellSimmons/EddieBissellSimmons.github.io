@@ -22,9 +22,15 @@
             border-style: solid;
         }
 
+        b{
+            padding-right: 100px;
+            align-items: left;
+        }
+
         a{
             padding: 50px;
             padding-vertical: 100px;
+            align-items: right;
         }
 
         nav{
@@ -141,6 +147,7 @@
 <body>
 <h1>
     <nav>
+        <b><x-green-text></x-green-text></b>
         <a>Home</a>
         <a>My Work</a>
         <a href="about.html">About</a>
@@ -291,7 +298,7 @@
 <script>
     class CustomGreenText extends HTMLElement{
         connectedCallback(){
-        this.innerHTML = "Eddie";
+        this.innerHTML = "Eddie Bissell Simmons";
         }
     }
     customElements.define("x-green-text", CustomGreenText);
